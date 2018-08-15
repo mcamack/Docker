@@ -4,3 +4,4 @@ web:
    - "5000:5000"
   volumes:
    - .:/code
+  container_name: python3-datascience
