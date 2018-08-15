@@ -7,7 +7,7 @@ def post_json_handler():
     print (request.is_json)
     content = request.get_json()
     print (content)
-    return 'JSON posted'
+    return jsonify('JSON posted')
 
 
 if __name__ == '__main__':
